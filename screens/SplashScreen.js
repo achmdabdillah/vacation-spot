@@ -45,11 +45,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#f2f2f2",
-    paddingHorizontal: Platform.OS === "web" ? "20%" : 0,
-    height: Platform.OS === "web" ? "100vh" : undefined,
-    overflow: Platform.OS === "web" ? "auto" : undefined,
+    border: "1px solid black",
+    marginVertical: "60%",
+    marginHorizontal: 50,
   },
-  logo: { width: 150, height: 150, marginBottom: 20 },
+  logo: { width: 150, height: 150, marginBottom: 20, marginHorizontal: "65" },
   title: { fontSize: 16, marginBottom: 20 },
   continueBtn: {
     backgroundColor: "#007AFF",
