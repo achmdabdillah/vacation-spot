@@ -23,7 +23,7 @@ export default function DetailScreen({ navigation, route }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20, backgroundColor: "#fff" },
+  container: { flex: 1, padding: 20, paddingTop: 65, backgroundColor: "#fff" },
   image: { width: "100%", height: 200, borderRadius: 8, marginBottom: 20 },
   title: { fontSize: 24, fontWeight: "bold", marginBottom: 10 },
   desc: { fontSize: 16, color: "#333", marginBottom: 10 },

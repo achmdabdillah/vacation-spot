@@ -43,6 +43,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#f2f2f2",
     paddingHorizontal: Platform.OS === "web" ? "20%" : 0,
+    padding: 20,
+    paddingTop: 60,
   },
   list: {
     flex: 1,
@@ -53,6 +55,7 @@ const styles = StyleSheet.create({
   card: {
     flexDirection: "row",
     marginVertical: 5,
+    marginHorizontal: 10,
     backgroundColor: "#fff",
     borderRadius: 8,
     overflow: "hidden",
